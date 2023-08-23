@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <title>Business Data Analysis Tool</title>
+</head>
+<body>
+    <header>
+        <h1>Business Data Analysis Tool</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload Excel File</h2>
+            <input type="file" id="file-input">
+            <button id="analyze-button">Analyze</button>
+        </section>
+        <section id="analysis-section">
+            <h2>Data Analysis</h2>
+            <div id="charts">chart container</div>
+            <div id="correlation"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Company</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
